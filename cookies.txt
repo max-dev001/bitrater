@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.apple.com	TRUE	/	FALSE	1999999999	geo	RU
+.themeforest.net	TRUE	/	FALSE	1999999999	SameSite	Lax
+themeforest.net	TRUE	/	FALSE	1999999999	_fd_session	6NzkBhQQDCe91mCBax8sWwzJ8JBF7KKJzfYCLc7ezMmRdyNIwd3R7eI1SpGfrz6LUuNvgO23c4JSFtiwxk3Z06IouPHZzhTxXWwCC2EK0%2FtY%2FSE%2Fus0CZwKKnzLztlxggAULW1yiPYZWY4uOMxlPWkYcVTZeSeB8eFh620m3cIug%2FuJSVWTsDgMtEuSfoOAXfQCFKB1VMXFjf78doW5ntEDbiM1OBAP9aq8d47mk%2Bky8n5rxNDQXFxZ%2FGo103TQyFJaWZqU%2B9cp5Vpv6AslugPCaKmatG4JgYpY2rRNwdMLYUIkwWWN6Qfpd4RonAEmA%2FQ6U9FFnzGbcBFmvj%2B79vrs%3D--TTanZb00eoVvXm69--lEw9vuds45Fkgdc9Zu4q9w%3D%3D
+.themeforest.net	TRUE	/	FALSE	1999999999	__cf_bm	F9Q9EvaH2lhYUjVC4YoDQr0ixqIBbb6Zf8TtFGdQ9Xc-1701925787-0-AUjTiwe1jdgyXrrFG5ypZKK7Pq1aZnedcTZPQxqQb4Wq2FrJ++upX9xLbXD0b9aR+CyWA7vyzNwn85DewGWEgWY=
+themeforest.net	TRUE	/	FALSE	1999999999	SameSite	None
+
