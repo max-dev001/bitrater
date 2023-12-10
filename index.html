@@ -150,13 +150,13 @@
                 <ul class="social">
                   <li class="social__item">
                   <li class="social__item">
-                    <a href="#" class="social__link social__link--style1 active"><i class="fab fa-telegram"></i></a>
+                    <a href="https://t.me/aifx_bz" class="social__link social__link--style1 active"><i class="fab fa-telegram"></i></a>
                   </li>
                   <li class="social__item">
-                    <a href="#" class="social__link social__link--style1"><i class="fab fa-youtube"></i></a>
+                    <a  class="social__link social__link--style1"><i class="fab fa-youtube"></i></a>
                   </li>
                   <li class="social__item">
-                    <a href="signin.html" class="social__link social__link--style1"><i class="fab fa-twitter"></i></a>
+                    <a href="https://x.com/aifx_bz" class="social__link social__link--style1"><i class="fab fa-twitter"></i></a>
                   </li>
                 </ul>
               </div>
@@ -513,7 +513,7 @@
     <div class="container">
       <div class="pricing__wrapper">
         <div class="row g-4 align-items-center">
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4" id="pricing-basic">
             <div class="pricing__item" data-aos="fade-right" data-aos-duration="1000">
               <div class="pricing__item-inner">
                 <div class="pricing__item-content">
@@ -551,14 +551,14 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4" id="pricing-standard">
             <div class="pricing__item " data-aos="fade-up" data-aos-duration="1000">
               <div class="pricing__item-inner active">
                 <div class="pricing__item-content">
 
                   <!-- pricing top part -->
                   <div class="pricing__item-top">
-                    <h6 class="mb-15">standard</h6>
+                    <h6 class="mb-15" >standard</h6>
                     <h3 class="mb-25">$29/<span>Weekly</span> </h3>
                   </div>
 
@@ -589,7 +589,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4" id="pricing-premium">
             <div class="pricing__item" data-aos="fade-left" data-aos-duration="1000">
               <div class="pricing__item-inner">
                 <div class="pricing__item-content">
@@ -643,8 +643,59 @@
 
 
 
+  <!-- ===============>> About section start here <<================= -->
+  <section class="about about--style3 padding-bottom ">
+    <div class="container">
+      <div class="about__wrapper">
+        <div class="row g-4 align-items-center">
+          <div class="col-md-6">
+            <div class="about__thumb about__thumb--style4" data-aos="fade-right" data-aos-duration="800">
+              <div class="about__thumb-inner">
+                <div class="about__thumb-image text-center floating-content">
+                  <img class="dark" src="assets/images/about/home3/1.png" alt="about-image">
+                  <div class="floating-content__bottom-left floating-content__bottom-left--style3" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="floating-content__item floating-content__item--style4">
+                      <div class="floating-content__item-thum">
+                        <img src="assets/images/about/home3/5.png" alt="author">
+                      </div>
+                      <div class="floating-content__item-content">
+                        <p>This coin burns forever</p>
+                        <!-- <span>Founder & MD</span> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about__content" data-aos="fade-left" data-aos-duration="800">
+              <h2>$AIFX & <span>OUR ECOSYSTEM</span></h2>
+              <p class="mb-0">
+                Token Name: AIFX <br>
+                - Symbol: AIFX <br>
+                - Total Issuance Quantity:5,000,000,000,000AIFX <br> <br>
+
+                Tokenomics Description <br>
+                1% of the tokens are on the market and with a burning process, the tokens on the market are now at 0.9%. <br>
+                0.1% is burned. <br>
+                The foundation will release 0.1% of the locked tokens (foundation equity) on the market. <br>
+                Then the circulating supply will come back to 1%. <br>
+                We repeat this. <br>
+                So it means that there is always 1% in the market.
+              </p>
+              <a href="about.html" class="trk-btn trk-btn--border trk-btn--primary">Buy token </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===============>> About section start here <<================= -->
+
+
   <!-- ===============>> FAQ section start here <<================= -->
-  <section class="faq padding-top padding-bottom of-hidden">
+  <section class="faq padding-top padding-bottom of-hidden" id="faq">
     <div class="section-header section-header--max65">
       <h2 class="mb-10 mt-minus-5"><span>Frequently</span> Asked questions</h2>
       <p>Hey there! Got questions? We've got answers. Check out our FAQ page for all the deets. Still not satisfied? Hit
@@ -815,7 +866,7 @@
               <form class="cta-form cta-form--style2 form-subscribe" action="#">
                 <div class="cta-form__inner d-sm-flex align-items-center">
                   <input type="email" class="form-control form-control--style2 mb-3 mb-sm-0"
-                    placeholder="https://t.me/aifx_bz">
+                    placeholder="https://t.me/aifx_bz" style="text-align: center;" value="https://t.me/aifx_bz">
                   <button type="reset" onclick="location.href='https://t.me/aifx_bz'" class="trk-btn  trk-btn--large trk-btn--secondary2" type="submit">Join</button>
                 </div>
               </form>
@@ -837,7 +888,7 @@
 
 
   <!-- ===============>> footer start here <<================= -->
-  <footer class="footer ">
+  <footer class="footer " id="#footer">
     <div class="container">
       <div class="footer__wrapper">
         <div class="footer__top footer__top--style1">
@@ -850,20 +901,21 @@
                   A revolutionary AI tool that sends buy and sell alerts based on 25 years of exchange data.
                 </p>
                 <div class="footer__app">
-                  <div class="footer__app-item footer__app-item--apple">
-                    <div class="footer__app-inner">
-                      <div class="footer__app-content">
-                        <p class="mb-0 my-btn">Get started</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="footer__app-item footer__app-item--playstore">
+                  <!-- <button class="my-btn success-btn">Get started</button> -->
+                  <a href="#pricing" class="trk-btn trk-btn--primary trk-btn--arrow">Get Started
+                    <span>
+                      <svg class="svg-inline--fa fa-arrow-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                        <path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path>
+                      </svg>
+                    </span>
+                  </a>
+                  <a class="footer__app-item footer__app-item--playstore">
                     <div class="footer__app-inner">
                       <div class="footer__app-content">
                         <p class="mb-0 my-btn">Buy token</p>
                       </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -874,11 +926,11 @@
                 </div>
                 <div class="footer__links-content">
                   <ul class="footer__linklist">
-                    <li class="footer__linklist-item"> <a href="about.html">Get started</a>
+                    <li class="footer__linklist-item"> <a href="#pricing">Get started</a>
                     </li>
-                    <li class="footer__linklist-item"> <a href="team.html">Buy token</a>
+                    <li class="footer__linklist-item"> <a href="#footer">Buy token</a>
                     </li>
-                    <li class="footer__linklist-item"> <a href="service.html">FAQ</a> </li>
+                    <li class="footer__linklist-item"> <a href="#faq">FAQ</a> </li>
                   </ul>
                 </div>
               </div>
@@ -891,11 +943,11 @@
                 </div>
                 <div class="footer__links-content">
                   <ul class="footer__linklist">
-                    <li class="footer__linklist-item"> <a href="#">Basic</a>
+                    <li class="footer__linklist-item"> <a href="#pricing-basic">Basic</a>
                     </li>
-                    <li class="footer__linklist-item"> <a href="#">Standard</a>
+                    <li class="footer__linklist-item"> <a href="#pricing-standard">Standard</a>
                     </li>
-                    <li class="footer__linklist-item"> <a href="#">Premium</a></li>
+                    <li class="footer__linklist-item"> <a href="#pricing-premium">Premium</a></li>
                   </ul>
                 </div>
               </div>
@@ -908,11 +960,11 @@
                 </div>
                 <div class="footer__links-content">
                   <ul class="footer__linklist">
-                    <li class="footer__linklist-item"> <a href="#">Burn&Drop</a>
+                    <li class="footer__linklist-item"> <a href="https://burndrop.difines.io/">Burn&Drop</a>
                     </li>
-                    <li class="footer__linklist-item"> <a href="#">STAKES</a>
+                    <li class="footer__linklist-item"> <a href="#footer">STAKES</a>
                     </li>
-                    <li class="footer__linklist-item"> <a href="#">Referral</a> </li>
+                    <li class="footer__linklist-item"> <a href="#footer">Referral</a> </li>
                   </ul>
                 </div>
               </div>
@@ -929,13 +981,13 @@
             <div>
               <ul class="social">
                 <li class="social__item">
-                  <a href="#" class="social__link social__link--style22"><i class="fa-brands fa-telegram"></i></a>
+                  <a href="https://t.me/aifx_bz" class="social__link social__link--style22"><i class="fa-brands fa-telegram"></i></a>
                 </li>
                 <li class="social__item">
-                  <a href="#" class="social__link social__link--style22"><i class="fab fa-youtube"></i></a>
+                  <a class="social__link social__link--style22"><i class="fab fa-youtube"></i></a>
                 </li>
                 <li class="social__item">
-                  <a href="#" class="social__link social__link--style22 "><i class="fab fa-twitter"></i></a>
+                  <a href="https://x.com/aifx_bz" class="social__link social__link--style22 "><i class="fab fa-twitter"></i></a>
                 </li>
               </ul>
             </div>
