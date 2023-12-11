@@ -4058,7 +4058,7 @@ h6 a {
   color: var(--secondary-color);
 }
 .subtitle--style4 p {
-  font-size: 1.125rem;
+  font-size: 2rem;
   color: var(--title-color);
   text-transform: uppercase;
 }
@@ -7362,7 +7362,7 @@ textarea:focus-within {
   box-shadow: -24px 24px 73.0064086914px 0px rgba(0, 208, 148, 0.16);
 }
 .floating-content__item--style4 p {
-  font-size: 1.125rem;
+  font-size: 1.4rem;
   color: var(--title-color);
 }
 .floating-content__item--style4 span {
